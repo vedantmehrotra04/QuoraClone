@@ -1,0 +1,78 @@
+.post_heading{
+    display: flex;
+    gap:2px;
+    align-items: center;
+    padding: 2px;
+    position: relative;
+}
+.post img{
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.post_caption{
+    display: flex;
+    gap: 8px;
+    padding: 2px;
+}
+.post{
+    
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+.add_btn{
+    margin-left : 250px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: cadetblue;
+    position: absolute;
+    right: 10px;
+}
+
+.modal_header {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.modal_header h1{
+    margin-bottom: 0px;
+    color: #8f1f1b;
+}
+
+.modal_header p {
+    font-size: small;
+    align-self: flex-end;
+}
+.modal_answer{
+    display: flex;
+    flex-direction: column;
+}
+.modal_answer > textarea{
+    height: 45px;
+}
+.modal_answer button{
+    width: 40%;
+    align-self: flex-end;
+    background-color: cadetblue;
+    margin-top: 10px;
+}
+
+.answers_header{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    font-size: small;
+}
+.answer_header .timestamp{
+    position: absolute;
+    right: 0;
+    font-size: small;
+}
+
+.post{
+    background-color: white;
+    border-radius: 10px;
+}

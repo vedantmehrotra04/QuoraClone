@@ -1,0 +1,40 @@
+.input{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid lightgray;
+        background-color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        border-radius: 5px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+.heading h5{
+    margin-left: 4px;
+}
+
+.input input {
+    outline: none;
+    border: none;
+    
+}
+
+
+.add_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.add{
+
+    display: flex;
+    justify-content: flex-end;
+}
+.add button{
+    background-color:cadetblue;
+    border-radius: 5px;
+}

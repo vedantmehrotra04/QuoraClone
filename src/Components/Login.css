@@ -1,0 +1,58 @@
+.login__logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .login__inputFields {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .login__inputField {
+    padding: 5px;
+  }
+
+  .login__inputField > input {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(236, 236, 236);
+  }
+
+  .input{
+      width : 400px;
+      margin : auto;
+  }
+  .login__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .login {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background: url("http://qsfs.fs.quoracdn.net/-4-images.home.illo_1920.png-26-e9e6fbe02d908942.png"); */
+  }
+
+  .login__forgButt {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .login__forgButt > small {
+    color: gray;
+    cursor: pointer;
+  }
+
+  .login__forgButt > small:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  
